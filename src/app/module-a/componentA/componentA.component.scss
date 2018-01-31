@@ -1,0 +1,9 @@
+:host {
+  background-color: yellow;
+  &:lang(en) {
+    background-color: rgb(144, 140, 221);
+  }
+  &:lang(pt) {
+    background-color: rgb(170, 214, 170);
+  }
+}

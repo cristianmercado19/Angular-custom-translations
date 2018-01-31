@@ -1,0 +1,17 @@
+<h4>{{ 'APP_NAME' | translate}}</h4>
+<div translate [translateParams]="{ lang: currentLangTranslated }">Current language
+</div>
+<div eswHtmlLang>
+  use language:
+  <select #langSelect (change)="changeLang(langSelect.value)">
+    <option *ngFor="let lang of availableLanguages"
+    [value]="lang"
+    [selected]="lang === currentLang">{{ lang | translate}}</option>
+  </select>
+  <br>
+  {{ 'missing' | translate}}
+</div>
+<div>
+  <a [routerLink]="[ '/modulea' ]">{{ 'load lazy route' | translate}}</a>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,11 @@
+{
+  "APP_NAME": "Translations Poc",
+  "code-sample": "got this from code",
+  "Current language": "Current Language: {{ lang}}",
+  "en": "English",
+  "Get translated text by code": "Get translated text by code",
+  "load lazy route": "load lazy route",
+  "pt": "Portuguese",
+  "story": "The quick brown fox jumps over the lazy dog",
+  "use language": "use language"
+}

@@ -1,0 +1,11 @@
+{
+  "APP_NAME": "Traduções POC",
+  "code-sample": "isto veio de codigo",
+  "Current language": "Linguagem em uso: {{ lang }}",
+  "en": "Inglês",
+  "Get translated text by code": "Obter texto tranduzido em codigo",
+  "load lazy route": "carregar rota preguiçosa",
+  "pt": "Português",
+  "story": "A rápida raposa castanha salta sobre o cão preguiçoso",
+  "use language": "modificar linguagem"
+}
